@@ -1,0 +1,18 @@
+.container {
+  margin-top: 30px;
+}
+
+.msg {
+  color: red;
+}
+
+form p.msg {
+  display: none;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+input.ng-invalid.ng-touched + .msg {
+  display: block;
+}
