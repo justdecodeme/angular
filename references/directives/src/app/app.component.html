@@ -1,6 +1,15 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
+        <input type="text" [(ngModel)]="name">
+        <p>{{name}}</p>
+    </div>
+  </div>
+  
+  <hr>
+
+  <div class="row">
+    <div class="col-xs-12">
       <button
         class="btn btn-primary"
         (click)="onlyOdd = !onlyOdd">Only show odd numbers</button>
